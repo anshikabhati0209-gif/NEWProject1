@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="FLEXPROJECT.css">
+</head>
+<body>
+    <h1>All Flexbox Concepts - Basic HTML Demo</h1>
+  <section>
+    <h2>1. Display: Flex</h2>
+    <p>This enables Flexbox layout on a container.</p>
+    <section class="flexContainer">
+      <div class="box">Item 1</div>
+      <div class="box">Item 2</div>
+      <div class="box">Item 3</div>
+    </section>
+  </section>
+  <section>
+    <h2>2. Flex Direction</h2>
+    <p>Direction of the main axis (row by default).</p>
+    <section class="flexContainer2">
+      <div class="boxx">Column 1</div>
+      <div class="boxx">Column 2</div>
+      <div class="boxx">Column 3</div>
+    </section>
+  </section>
+    <section>
+    <h2>3. Justify Content</h2>
+    <p>Controls alignment along the main axis (horizontal if flex-direction is row).</p>
+    <section class="flexContainer3">
+      <div class="box3">Center</div>
+      <div class="box3">Aligned</div>
+    </section>
+
+    <section class="flexContainer4">
+      <div class="box4">Start</div>
+      <div class="box4">End</div>
+    </section>
+  </section>
+<section>
+    <h2>4. Align Items</h2>
+    <p>Controls alignment along the cross axis (vertical if flex-direction is row).</p>
+    <section class="flexContainer5">
+      <div class="box5">Top</div>
+      <div class="box5" style="height: 100px;">Tall</div>
+      <div class="box5">Medium</div>
+    </section>
+</section>
+
+  <section>
+    <h2>5. Flex Wrap</h2>
+    <p>Allows items to wrap into multiple lines.</p>
+    <section class="flexContainer6">
+      <div class="box6" style="width: 200px;">Box 1</div>
+      <div class="box6" style="width: 200px;">Box 2</div>
+      <div class="box6" style="width: 200px;">Box 3</div>
+      <div class="box6" style="width: 200px;">Box 4</div>
+    </section>
+</section>
+<section>
+    <h2>6. Gap</h2>
+    <p>Space between items (row and column gap).</p>
+    <section class="flexContainer7" style="gap: 20px;">
+      <div class="box7">A</div>
+      <div class="box7">B</div>
+      <div class="box7">C</div>
+    </section>
+  </section>
+  <section>
+    <h2>7. Flex Grow</h2>
+    <p>Defines how much a flex item will grow relative to the others.</p>
+    <section class="flexContainer8">
+      <div class="box grow1">Grow 1</div>
+      <div class="box grow2">Grow 2</div>
+      <div class="box grow3">No Grow</div>
+    </section>
+  </section>
+  <section>
+    <h2>8. Flex Shrink</h2>
+    <p>Defines how a flex item will shrink if necessary.</p>
+    <div class="flexContainer9" style="width: 300px;">
+      <div class="box9 boxSh" style="width: 200px;">Shrink</div>
+      <div class="box9" style="width: 200px;">No Shrink</div>
+    </div>
+  </section>
+  <section>
+    <h2>9. Flex Basis</h2>
+    <p>Sets the initial size of a flex item before space is distributed.</p>
+    <div class="flexContainer10">
+      <div class="box10 boxbasis">150px Basis</div>
+      <div class="box10 boxauto">Auto</div>
+    </div>
+  </section>
+   <section>
+    <h2>10. Order</h2>
+    <p>Controls the order in which items appear (visually).</p>
+    <div class="flexContainer11">
+      <div class="box11 order2">Order 2</div>
+      <div class="box11 order1">Order 1</div>
+      <div class="box11 order0">Default</div>
+    </div>
+  </section>
+  <section>
+    <h2>11. Align Self</h2>
+    <p>Overrides align-items for individual items.</p>
+    <div class="flexContainer12" style="height: 150px;">
+      <div class="box12 alignstart">Top</div>
+      <div class="box12 aligncenter">Center</div>
+      <div class="box12 alignend">Bottom</div>
+    </div>
+  </section>
+
+</body>
+</html>
