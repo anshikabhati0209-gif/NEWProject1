@@ -234,11 +234,24 @@ background-color:#add8e6; ;
     align-items: center;
 }
 .alignstart{
-    align-items: flex-start;
+    align-items: center;
 }
 .aligncenter{
   align-items: center;
 }
 .alignend{
-    align-items: flex-end;
+    align-items: center;
+}
+
+.box12:nth-child(1){
+align-self: flex-start;
+}
+
+
+.box12:nth-child(2){
+    align-self: center;
+}
+
+.box12:nth-child(3){
+    align-self: flex-end;
 }
